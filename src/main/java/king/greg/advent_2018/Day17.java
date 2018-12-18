@@ -66,7 +66,7 @@ public class Day17 {
 		pourPoints.add(spring);
 		while (!pourPoints.isEmpty()) {
 			Point currentFlow = pourPoints.remove();
-			System.out.println("Evaluating point: " + currentFlow);
+//			System.out.println("Evaluating point: " + currentFlow);
 			if (currentFlow.y + 1 > maxY) { // reached the bottom here
 				continue;
 			} else if (map[currentFlow.y + 1][currentFlow.x] == '|') { // water already below.
@@ -104,7 +104,7 @@ public class Day17 {
 				}
 			}
 		}
-		printMap();
+//		printMap();
 	}
 
 	private void loadInput(final FileReader fileReader) {
@@ -117,7 +117,7 @@ public class Day17 {
 					break;
 				} else {
 					final String[] lineCoordinates = lineJustFetched.split("=|, ");
-					System.out.println(Arrays.toString(lineCoordinates));
+//					System.out.println(Arrays.toString(lineCoordinates));
 					if (lineCoordinates[0].equals("x")) {
 						loadLine(lineCoordinates[1], lineCoordinates[3]);
 					} else {
@@ -128,7 +128,7 @@ public class Day17 {
 		} catch (IOException ioe) {
 
 		}
-		System.out.println(input);
+//		System.out.println(input);
 		map = new char[maxY + 1][(maxX - minX) + 3];
 		for (char[] row : map) {
 			Arrays.fill(row, '.');
@@ -138,7 +138,7 @@ public class Day17 {
 		for (Point clay : input) {
 			map[clay.y][clay.x - minX + 1] = '#';
 		}
-		printMap();
+//		printMap();
 	}
 
 	private void loadLine(final String xCoords, final String yCoords) {
