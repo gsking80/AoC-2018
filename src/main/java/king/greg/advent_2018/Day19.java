@@ -73,6 +73,16 @@ public class Day19 {
 
 	public int actualProgram(final int input) {
 		// Sum of factors of input
+		// 3* = 1
+		// while (3* <= 10551287) {
+		// 5* = 1
+		// while (5* <= 10551287) {
+		// if (5* x 3* == 10551287) {
+		// 0* += 3*
+		// increment 5*
+		// }
+		// increment 3*
+		// }
 		int answer = 0;
 		for (int i = 1; i <= input; i++) {
 			if (input % i == 0) {
