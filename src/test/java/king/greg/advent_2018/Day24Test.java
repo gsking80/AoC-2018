@@ -29,7 +29,7 @@ public class Day24Test {
 		final FileReader fileReader = new FileReader(
 				getClass().getClassLoader().getResource("Day24/Test1a.txt").getPath());
 		Day24 day24 = new Day24(fileReader);
-		Assertions.assertThat(day24.war2(1570)).isEqualTo(33551);
+		Assertions.assertThat(day24.war2(1570)).isEqualTo(51);
 	}
 
 	@Test
@@ -43,7 +43,7 @@ public class Day24Test {
 			Day24 day24 = new Day24(fileReader);
 			units = day24.war2(boost);
 		}
-		Assertions.assertThat(units).isEqualTo(33551);
+		Assertions.assertThat(units).isEqualTo(760);
 	}
 
 }
