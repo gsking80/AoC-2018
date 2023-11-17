@@ -3,7 +3,6 @@ package king.greg.advent_2018;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.lang.reflect.InvocationTargetException;
-
 import org.junit.Test;
 
 public class Day16Test {

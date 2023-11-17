@@ -1,7 +1,6 @@
 package king.greg.advent_2018;
 
 import java.awt.Point;
-
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 

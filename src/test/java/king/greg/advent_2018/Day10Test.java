@@ -2,7 +2,6 @@ package king.greg.advent_2018;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-
 import org.junit.Test;
 
 public class Day10Test {

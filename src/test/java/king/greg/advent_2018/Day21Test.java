@@ -4,7 +4,6 @@ import static org.junit.Assert.*;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-
 import org.junit.Test;
 
 public class Day21Test {

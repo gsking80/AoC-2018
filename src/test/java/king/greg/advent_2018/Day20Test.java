@@ -5,9 +5,7 @@ import static org.junit.Assert.*;
 import java.awt.Point;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-
 import org.assertj.core.api.Assertions;
-import org.junit.Ignore;
 import org.junit.Test;
 
 public class Day20Test {

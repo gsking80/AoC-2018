@@ -14,8 +14,6 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Set;
 
-import king.greg.advent_2018.Day15.Node;
-
 public class Day23 {
 
 	final Set<Nanobot> nanobots = new HashSet<Nanobot>();

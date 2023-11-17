@@ -2,7 +2,6 @@ package king.greg.advent_2018;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-
 import org.assertj.core.api.Assertions;
 import org.junit.Ignore;
 import org.junit.Test;

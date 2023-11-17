@@ -3,7 +3,6 @@ package king.greg.advent_2018;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 
